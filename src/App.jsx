@@ -8,7 +8,7 @@ import { HashRouter as Router, Routes, Route }
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/">
             <Routes>
                 <Route exact path='/' element={<Index />} />
                 <Route exact path='/work' element={<Work />} />
