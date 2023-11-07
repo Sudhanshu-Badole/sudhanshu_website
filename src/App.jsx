@@ -3,7 +3,7 @@ import Work from "../src/components/lastest_work/Work";
 import About from "../src/components/about/About";
 import Index from "../src/components/layout";
 
-import { BrowserRouter as Router, Routes, Route }
+import { HashRouter as Router, Routes, Route }
     from 'react-router-dom';
 
 const App = () => {
