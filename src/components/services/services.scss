@@ -1,0 +1,238 @@
+@import "../../app.scss";
+
+.services {
+  background: linear-gradient(180deg, #000000, #000001);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+
+  .textContainer {
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    @include mobile {
+      align-self: center;
+      text-align: center;
+      flex-direction: column;
+    }
+
+    p {
+      font-weight: 200;
+      font-size: 20px;
+      color: gray;
+      text-align: right;
+    }
+
+    hr {
+      width: 500px;
+      border: none;
+      border-top: 0.5px solid gray;
+
+      @include mobile {
+        width: 300px;
+      }
+    }
+  }
+
+  .titleContainer {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include mobile {
+      width: 100%;
+    }
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+
+      @include mobile {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+      }
+
+      img {
+        width: 300px;
+        height: 100px;
+        border-radius: 50px;
+        object-fit: cover;
+
+        @include mobile {
+          width: 200px;
+          height: 50px;
+        }
+      }
+
+      h1 {
+        font-size: 96px;
+        font-weight: 100;
+
+        @include mobile {
+          font-size: 36px;
+        }
+      }
+
+      button {
+        width: 300px;
+        height: 100px;
+        border-radius: 50px;
+        background-color: orange;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+
+        @include mobile {
+          font-size: 16px;
+          width: 150px;
+          height: 50px;
+        }
+      }
+    }
+  }
+
+  .listContainer {
+    flex: 2;
+    display: flex;
+    max-width: 1366px;
+    margin: auto;
+
+    @include mobile {
+      flex-direction: column;
+      width: 100%;
+    }
+
+    .box {
+      padding: 50px;
+      border: 0.5px solid gray;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      @include mobile {
+        border: none;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+      }
+
+      p {
+        @include mobile {
+          display: none;
+        }
+      }
+
+      button {
+        padding: 10px;
+        background-color: orange;
+        border: none;
+        cursor: pointer;
+
+        @include mobile {
+          background-color: transparent;
+          border: 1px solid orange;
+          border-radius: 5px;
+          color: orange;
+          width: 50%;
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
+
+.skills {
+  height: 100%;
+
+  .wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+    width: 90%;
+    letter-spacing: 1.5px;
+    color: #F8F8F8;
+    font-family: "Sen", sans-serif;
+
+    h2 {
+      text-align: center;
+      padding-top: 3%;
+      font-size: 2.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      span {
+        -webkit-box-shadow: inset 0px -5px 0px 0px #FFA818;
+        box-shadow: inset 0px -5px 0px 0px #FFA818;
+        
+      }
+    }
+
+    .skills-container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      justify-content: center;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin: 6% auto;
+
+      .skills-title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        justify-content: center;
+        -ms-flex-preferred-size: 23%;
+        flex-basis: 20%;
+        padding: 10px;
+
+        span {
+          font-size: 4.5rem;
+          color: white;
+
+          &:hover {
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+
+            color: #FFA818;
+          }
+        }
+
+        p {
+          text-align: center;
+          font-size: 1rem;
+          font-weight: bold;
+
+        }
+      }
+    }
+
+  }
+
+}
