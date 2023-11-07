@@ -1,4 +1,4 @@
-import "./App.scss"
+import "./app.scss"
 import Work from "../src/components/lastest_work/Work";
 import About from "../src/components/about/About";
 import Index from "../src/components/layout";
