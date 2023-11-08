@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sudhanshu_website/static/css/main.53bf1df9.css",
+    "main.css": "/sudhanshu_website/static/css/main.22eff1e2.css",
     "main.js": "/sudhanshu_website/static/js/main.f453cf6a.js",
     "static/js/787.861fdc3f.chunk.js": "/sudhanshu_website/static/js/787.861fdc3f.chunk.js",
     "static/media/mountains.png": "/sudhanshu_website/static/media/mountains.6bceb498a0e1e0a70b47.png",
     "static/media/stars.png": "/sudhanshu_website/static/media/stars.a979f6ed7ad00c7ea0b2.png",
     "index.html": "/sudhanshu_website/index.html",
-    "main.53bf1df9.css.map": "/sudhanshu_website/static/css/main.53bf1df9.css.map",
+    "main.22eff1e2.css.map": "/sudhanshu_website/static/css/main.22eff1e2.css.map",
     "main.f453cf6a.js.map": "/sudhanshu_website/static/js/main.f453cf6a.js.map",
     "787.861fdc3f.chunk.js.map": "/sudhanshu_website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53bf1df9.css",
+    "static/css/main.22eff1e2.css",
     "static/js/main.f453cf6a.js"
   ]
 }
